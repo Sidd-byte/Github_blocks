@@ -1,27 +1,36 @@
+img.octocat {
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
 .container{
-    width: 100%;
-    background-color: aqua;
-    margin: 10px;
-    padding: 20px;
-    align-self: flex-start;
-    align-items: stretch;
+    width: 1000px;
+    height: 1000px;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+.row{
     display: flex;
-    display: inline-block;
+    justify-content: space-around;
 }
-.top_row{
-    width: 30%;
-    height: 30%;
-    background-color: bisque;
-}
-.middle_row{
-    width: 30%;
-    height: 30%;
-    background-color: blueviolet;
-    align-items: center;
-    justify-content: center;
-}
-.bottom_row{
-    width: 30%;
-    height: 30%;
+.top{
+    margin: 10px;
+    padding: 10px;
     background-color: cadetblue;
+}
+.middle{
+    margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    justify-content: space-evenly;
+
+}
+.bottom{
+    margin: 10px;
+    padding: 10px;
+    background-color: darkblue;
+
 }
